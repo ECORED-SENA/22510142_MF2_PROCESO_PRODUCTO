@@ -1,0 +1,67 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al Inicio",
+    "path": "index.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "procesos_manufactura",
+    "title": "1. Procesos de Manufactura",
+    "breadcrumb": ["Inicio","Introducción"],
+    "path": "pages/tema-1.html",   
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "procesos_manufactura",
+        "title": "1.1 Tipos de procesos de manufactura",
+        "anchor": "tema1_1"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "procesos_manufactura",
+        "title": "1.1.1 Operaciones de Procesamiento",
+        "anchor": "tema1_1_1"
+      }      
+    ]  
+  },
+
+  {
+    "id": 2,
+    "icon": "fa fa-file-text-o",
+    "slug": "tecnicas_dibujo_manual",
+    "title": "2. Técnicas de dibujo manual",
+    "breadcrumb": [
+      "Inicio",
+      "Tema 2"
+    ],
+    "path": "pages/tema-2.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "tecnicas_dibujo_manual",
+        "title": "2. Tipos de dibujo manual",
+        "anchor": "tema2_1"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "icon": "fa fa-file-text-o",
+    "slug": "esbozo_boceto",
+    "title": "3. Esbozo y boceto",
+    "breadcrumb": [
+      "Inicio",
+      "Tema 3"
+    ],
+    "path": "pages/tema-3.html"    
+  },
+  {
+    "icon": "fa fa-question-circle",
+    "slug": "actividad-1",
+    "title": "Actividad didáctica",
+    "path": "pages/actividad-1.html"
+  }
+]
