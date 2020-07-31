@@ -17,14 +17,13 @@ $quote_icon_color: #3A4650;
         vertical-align: middle;
       }
     }
-    &__hr {
-      display: inline-block;
+    &__hr {      
       width: 100%;
       height: 5px;
       background-color: $quote_bar_color;
     }
   }
   &__text {
-    padding: 0.25rem 2rem;
+    padding: 0.25rem 3rem;
   }
 }
